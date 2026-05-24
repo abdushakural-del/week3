@@ -1,0 +1,8 @@
+number = int(input())
+
+prefix = number // 10000
+
+if prefix == 555:
+    print(1)
+else:
+    print(0)
